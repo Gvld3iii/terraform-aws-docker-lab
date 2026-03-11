@@ -180,4 +180,7 @@ Terraform remote state (S3 + DynamoDB)
 
 CI/CD pipeline (GitHub Actions)
 
-Kubernetes deployment (EKS)
+# Kubernetes deployment (EKS)
+Infrastructure lifecycle tested:
+terraform apply → deploy
+terraform destroy → clean teardown
